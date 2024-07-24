@@ -43,6 +43,20 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
+              <div>
+                <h3 className="qualification__title">
+                  FullStack Developer ~ (Volunteer)
+                </h3>
+                <span className="qualification__subtitle">Therapie</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
             </div>
 
             <div className="qualification__data">
@@ -84,7 +98,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Junior Accounting / Audit Office
+                  Junior Accountant / Audit Officer
                 </h3>
                 <span className="qualification__subtitle">
                   Pat Akinwumi and Associates

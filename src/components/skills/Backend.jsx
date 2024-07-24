@@ -20,8 +20,8 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Rust</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Next.js</h3>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">Golang</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">NestJS</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
 
@@ -59,7 +59,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">MongoDB</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
