@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Info = () => {
   return (
@@ -11,20 +11,20 @@ const Info = () => {
       </div>
 
       <div className="about__box">
-        <i class="bx bx-code-alt about__icon"></i>
+        <i className="bx bx-code-alt about__icon"></i>
 
         <h3 className="about__title">Completed</h3>
         <span className="about__subtitle">20 + Projects</span>
       </div>
 
       <div className="about__box">
-        <i class="bx bx-hard-hat about__icon"></i>
+        <i className="bx bx-hard-hat about__icon"></i>
 
         <h3 className="about__title">Background</h3>
         <span className="about__subtitle">Non-traditional</span>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Info;
+export default Info

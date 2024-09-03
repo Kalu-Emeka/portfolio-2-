@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
-import "./footer.css";
+import React from 'react'
+import './footer.css'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title"></h1>
+        <h1 className="footer__title">Don&apos;t be shy. Contact Me</h1>
 
         <div className="footer__social">
           <a
@@ -38,11 +38,15 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-          <i className="uil uil-envelope"></i> Email: finzyphinzyy@proton.me
+          <i className="uil uil-envelope"></i>{' '}
+          <span>
+            Email:
+            <a href="mailto:finzyphinzy@proton.me"> finzyphinzyy@proton.me</a>
+          </span>
         </span>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

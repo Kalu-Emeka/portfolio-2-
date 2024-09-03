@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import "./qualification.css";
+import React, { useState } from 'react'
+import './qualification.css'
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(1)
 
   const toggleTab = (index) => {
-    setToggleState(index);
-  };
+    setToggleState(index)
+  }
 
   return (
     <section className="qualification section">
@@ -18,8 +18,8 @@ const Qualification = () => {
           <div
             className={
               toggleState === 1
-                ? "qualification__button qualification__active button--flex"
-                : "qualification__button button--flex"
+                ? 'qualification__button qualification__active button--flex'
+                : 'qualification__button button--flex'
             }
             onClick={() => toggleTab(1)}
           >
@@ -32,8 +32,8 @@ const Qualification = () => {
           <div
             className={
               toggleState === 1
-                ? "qualification__content qualification__content-active"
-                : "qualification__content"
+                ? 'qualification__content qualification__content-active'
+                : 'qualification__content'
             }
           >
             <div className="qualification__data">
@@ -49,27 +49,24 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">Therapie</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> 2024 - Present
                 </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
 
             <div className="qualification__data">
+              {' '}
               <div>
-                <h3 className="qualification__title">Software Engineer</h3>
+                <h3 className="qualification__title">
+                  Associate Software Engineer
+                </h3>
                 <span className="qualification__subtitle">
-                  100Devs - Remote
+                  100Devs - Boston, MA (Remote)
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2024
                 </div>
               </div>
-
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -117,8 +114,8 @@ const Qualification = () => {
           <div
             className={
               toggleState === 2
-                ? "qualification__content qualification__content-active"
-                : "qualification__content"
+                ? 'qualification__content qualification__content-active'
+                : 'qualification__content'
             }
           >
             <div className="qualification__data">
@@ -159,7 +156,7 @@ const Qualification = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Qualification;
+export default Qualification
