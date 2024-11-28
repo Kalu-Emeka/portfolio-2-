@@ -12,8 +12,8 @@ export const projectsData = [
     title: 'Snapcase',
     description:
       'SnapCase is a web application that allows users to import a picture an order a custom phone case with the picture as the case cover.',
-    link: 'https://finzyphinzy.github.io/Minimalist-Banking/',
-    repo: 'https://github.com/FinzyPHINZY/Minimalist-Banking/',
+    link: 'https://snapcase-one.vercel.app',
+    repo: 'https://github.com/FinzyPHINZY/snapcase',
     category: 'applications',
   },
   {
