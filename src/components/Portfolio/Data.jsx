@@ -1,9 +1,10 @@
-import Work2 from '../../assets/carepulse.png'
-import Work4 from '../../assets/devlinks.png'
-import Work7 from '../../assets/finzystore.png'
-import Work9 from '../../assets/hilink.png'
-import Work1 from '../../assets/largescreen-homepage-snapcase.png'
-import Work3 from '../../assets/positivus.png'
+import Work2 from '../../assets/carepulse.png';
+import Work4 from '../../assets/devlinks.png';
+import Work7 from '../../assets/finzystore.png';
+import Work9 from '../../assets/hilink.png';
+import Work1 from '../../assets/largescreen-homepage-snapcase.png';
+import Work3 from '../../assets/positivus.png';
+import Work10 from '../../assets/brickandbeam.png';
 
 export const projectsData = [
   {
@@ -27,6 +28,22 @@ export const projectsData = [
     category: 'applications',
   },
   {
+    id: 9,
+    image: Work9,
+    title: 'HiLink.',
+    link: 'https://hilink-travelcamp.vercel.app/',
+    repo: 'https://github.com/FinzyPHINZY/hi-link',
+    category: 'websites',
+  },
+  {
+    id: 10,
+    image: Work10,
+    title: 'Brick and Beam.',
+    link: 'https://brickand-beam.vercel.app/',
+    repo: 'https://github.com/FinzyPHINZY/brickandbeam',
+    category: 'websites',
+  },
+  {
     id: 2,
     image: Work2,
     title: 'CarePulse',
@@ -36,14 +53,7 @@ export const projectsData = [
     repo: 'https://github.com/FinzyPHINZY/carepulse',
     category: 'applications',
   },
-  {
-    id: 9,
-    image: Work9,
-    title: 'HiLink.',
-    link: 'https://hilink-travelcamp.vercel.app/',
-    repo: 'https://github.com/FinzyPHINZY/hi-link',
-    category: 'websites',
-  },
+
   {
     id: 3,
     image: Work3,
@@ -61,7 +71,7 @@ export const projectsData = [
     repo: 'https://github.com/FinzyPHINZY/finzystore',
     category: 'websites',
   },
-]
+];
 
 // projects
 export const projectsNav = [
@@ -74,4 +84,4 @@ export const projectsNav = [
   {
     name: 'websites',
   },
-]
+];
