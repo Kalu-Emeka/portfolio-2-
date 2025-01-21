@@ -1,14 +1,14 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../assets/boluwatife.jpeg'
-import CV from '../../assets/boluwatifeAdeyemiResume.pdf'
+import AboutImg from '../../assets/me.jpg'
+import CV from '../../assets/Resume.pdf'
 import Info from './Info'
 
 const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">Introduction</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,10 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I am a Full Stack Web Developer. I have done work in software
-            development, front-end/back-end web, and database/server management.
-            I commit myself solving technological problems and to being
-            adaptable as well as learning quickly to implement solutions
+            I’m a Frontend Software Engineer with about 4 years’ experience building web applications that are reliable, responsive and scalable, and user-friendly. I’m fluent in JavaScript, Typescript, React, and Next.js on the frontend, and I’m equally comfortable working with Node.js, Express, Mongo DB and PostgreSQL.
           </p>
 
           <a download="" href={CV} className="button button--flex">

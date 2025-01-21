@@ -11,10 +11,6 @@ const WorkItems = ({ item }) => {
           Live Demo
           <i className="bx bx-right-arrow-alt work__button-icon"></i>
         </a>
-        <a href={item.repo} className="work__button">
-          Repo
-          <i className="bx bx-right-arrow-alt work__button-icon"></i>
-        </a>
       </div>
     </div>
   )

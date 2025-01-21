@@ -10,7 +10,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://www.github.com/FinzyPHINZY/"
+            href="https://github.com/Kalu-Emeka"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
@@ -19,21 +19,12 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/bolu-finzyphinzy/"
+            href="www.linkedin.com/in/techie-emeka"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
           >
             <i className="bx bxl-linkedin"></i>
-          </a>
-
-          <a
-            href="https://twitter.com/iamfinzyphinzy_"
-            className="footer__social-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="bx bxl-twitter"></i>
           </a>
         </div>
 
@@ -41,7 +32,7 @@ const Footer = () => {
           <i className="uil uil-envelope"></i>{' '}
           <span>
             Email:
-            <a href="mailto:finzyphinzyy@proton.me"> finzyphinzyy@proton.me</a>
+            <a href="mailto:brickkalu@gmail.com"> brickkalu@gmail.com</a>
           </span>
         </span>
       </div>

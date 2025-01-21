@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.linkedin.com/in/bolu-finzyphinzy/"
+        href="www.linkedin.com/in/techie-emeka"
         className="home__social-icon"
         target="_blank"
       >
@@ -12,7 +12,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://github.com/FinzyPHINZY"
+        href="https://github.com/Kalu-Emeka"
         className="home__social-icon"
         target="_blank"
       >
@@ -20,15 +20,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://twitter.com/iamfinzyphinzy_"
-        className="home__social-icon"
-        target="_blank"
-      >
-        <i className="uil uil-twitter"></i>
-      </a>
-
-      <a
-        href="mailto:finzyphinzyy@proton.me"
+        href="mailto:brickkalu@gmail.com"
         className="home__social-icon"
         target="_blank"
       >

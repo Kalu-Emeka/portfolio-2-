@@ -1,13 +1,21 @@
 import React from 'react'
-
+import { ReactTyped } from "react-typed";
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">Boluwatife Adeyemi</h1>
-      <h3 className="home__subtitle">Software Engineer</h3>
+      <h1 className="home__title">Emeka Kalu</h1>
+      <h3 className="home__subtitle">
+        <ReactTyped
+          strings={["Front-End Developer.", "Freelancer.", "Website Desginer."]}
+          typeSpeed={50}
+          backSpeed={30}
+          loop
+          >
+        </ReactTyped>
+    </h3>
       <p className="home__description">
-        I enjoy finding solutions to problems relating to software. I take pride
-        in being able to open a documentation, learn and make it work
+        I'm a Proven success in boosting website performance and stability through regular maintenance 
+        and troubleshooting.
       </p>
 
       <a href="#portfolio" className="button button--flex">

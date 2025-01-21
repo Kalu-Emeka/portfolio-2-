@@ -28,38 +28,11 @@ export const projectsData = [
     category: 'applications',
   },
   {
-    id: 9,
-    image: Work9,
-    title: 'HiLink.',
-    link: 'https://hilink-travelcamp.vercel.app/',
-    repo: 'https://github.com/FinzyPHINZY/hi-link',
-    category: 'websites',
-  },
-  {
     id: 10,
     image: Work10,
     title: 'Brick and Beam.',
     link: 'https://brickand-beam.vercel.app/',
     repo: 'https://github.com/FinzyPHINZY/brickandbeam',
-    category: 'websites',
-  },
-  {
-    id: 2,
-    image: Work2,
-    title: 'CarePulse',
-    description:
-      'A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors',
-    link: 'https://carepulse-delta.vercel.app/',
-    repo: 'https://github.com/FinzyPHINZY/carepulse',
-    category: 'applications',
-  },
-
-  {
-    id: 3,
-    image: Work3,
-    title: 'Positivus',
-    link: 'https://positivus-digital.vercel.app/',
-    repo: 'https://github.com/FinzyPHINZY/positivus',
     category: 'websites',
   },
 
@@ -68,7 +41,6 @@ export const projectsData = [
     image: Work7,
     title: 'FinzyStore',
     link: 'https://finzystore.vercel.app/',
-    repo: 'https://github.com/FinzyPHINZY/finzystore',
     category: 'websites',
   },
 ];
