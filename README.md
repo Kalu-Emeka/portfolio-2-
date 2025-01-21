@@ -1,10 +1,10 @@
-# 💼 Boluwatife Adeyemi - Portfolio
+# 💼 Kalu Emeka - Portfolio
 
-Welcome to my portfolio website repository! This site showcases my work as a Software Engineer, featuring my skills, experience, projects, and testimonials from clients. Built with modern web technologies, this portfolio is designed to be a simple yet effective representation of my professional journey.
+Welcome to my portfolio website repository! This site showcases my work as a Frontend Developer, featuring my skills, experience, projects, and testimonials from clients. Built with modern web technologies, this portfolio is designed to be a simple yet effective representation of my professional journey.
 
 ## 🌐 Live Demo
 
-Check out the live site here: [Boluwatife Adeyemi Portfolio](https://finzyphinzy.vercel.app/)
+Check out the live site here: [Kalu Emeka Portfolio](https://tech-emeka.netlify.app/)
 
 ## 📁 Project Structure
 
@@ -29,6 +29,6 @@ This project is organized into the following structure:
 
 ## 📬 Contact
 
-Boluwatife Adeyemi - [finzyphinzyy@proton.me](mailto:finzyphinzyy@proton.me)
+Kalu Emeka - (mailto:brickkalu@gmail.com)
 
 Feel free to reach out if you have any questions or just want to connect!
