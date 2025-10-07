@@ -1,46 +1,50 @@
 import Work2 from '../../assets/carepulse.png';
-import Work4 from '../../assets/devlinks.png';
-import Work7 from '../../assets/finzystore.png';
+import Work4 from '../../assets/EcoReport.png';
+import Work7 from '../../assets/Bitreel.png';
 import Work9 from '../../assets/hilink.png';
-import Work1 from '../../assets/largescreen-homepage-snapcase.png';
+import Work1 from '../../assets/Khefue-frontend.png';
 import Work3 from '../../assets/positivus.png';
-import Work10 from '../../assets/brickandbeam.png';
+import Work10 from '../../assets/Game-chain.png';
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: 'Snapcase',
+    title: 'Khefue',
     description:
-      'SnapCase is a web application that allows users to import a picture an order a custom phone case with the picture as the case cover.',
-    link: 'https://snapcase-one.vercel.app',
-    repo: 'https://github.com/FinzyPHINZY/snapcase',
+      'Khefue allows purchases into extraordinary rewards. Earn points while shopping for groceries, paying bills, and booking travel—all in one place .',
+    link: 'https://khefuefrontend.azurewebsites.net/login',
+    repo: '',
     category: 'applications',
   },
   {
     id: 4,
     image: Work4,
-    title: 'DevLinks',
+    title: 'EcoReportAI',
     description:
-      'This is your one-stop shop for creating a sleek, developer-focused profile page that links to all your favorite platforms. ',
-    link: 'https://devlink-eta.vercel.app/',
-    repo: 'https://github.com/FinzyPHINZY/devlinks',
-    category: 'applications',
+      'EcoReportAI simplifies sustainability reporting and ensures compliance with AI-powered insights and blockchain-secured Green-Badge eco-certifications, building trust across businesses, investors and regulatory networks.',
+    link: 'https://green-badge-6uv9.vercel.app/',
+    repo: '',
+    category: 'websites',
   },
   {
     id: 10,
     image: Work10,
-    title: 'Brick and Beam.',
-    link: 'https://brickand-beam.vercel.app/',
-    repo: 'https://github.com/FinzyPHINZY/brickandbeam',
-    category: 'websites',
+    title: 'Game-chain.',
+    description:
+      'Your cross-chain gaming asset hub',
+    link: 'https://game-chain-oasis.netlify.app/',
+    repo: '',
+    category: 'applications',
   },
 
   {
     id: 7,
     image: Work7,
-    title: 'FinzyStore',
-    link: 'https://finzystore.vercel.app/',
+    title: 'Bitreel',
+    description:
+      'Unlock the Value of Cinema with BitReel Engage, Watch, Profit: The Blockchain Box Office',
+    link: 'https://bitreels.netlify.app/',
     category: 'websites',
   },
 ];

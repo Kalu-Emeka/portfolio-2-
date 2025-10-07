@@ -6,7 +6,7 @@ const Data = () => {
       <h1 className="home__title">Emeka Kalu</h1>
       <h3 className="home__subtitle">
         <ReactTyped
-          strings={["Front-End Developer.", "Freelancer.", "Website Desginer."]}
+          strings={["Front-End Developer.", "Freelancer.",  "Web3 Developer"]}
           typeSpeed={50}
           backSpeed={30}
           loop

@@ -30,5 +30,17 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.5.1",
     "vite": "^4.4.5"
+  },
+  "description": "Welcome to my portfolio website repository! This site showcases my work as a Frontend Developer, featuring my skills, experience, projects, and testimonials from clients. Built with modern web technologies, this portfolio is designed to be a simple yet effective representation of my professional journey.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalu-Emeka/portfolio-2-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalu-Emeka/portfolio-2-/issues"
   }
 }
