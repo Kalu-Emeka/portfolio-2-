@@ -1,9 +1,9 @@
-import Work2 from '../../assets/dsyneer.png';
-import Work4 from '../../assets/EcoReport.png';
-import Work7 from '../../assets/Bitreel.png';
-import Work1 from '../../assets/Khefue-frontend.png';
-import Work3 from '../../assets/Debrilliant.png';
-import Work10 from '../../assets/Game-chain.png';
+import Work2 from '../../assets/dsyneer.webp';
+import Work4 from '../../assets/EcoReport.webp';
+import Work7 from '../../assets/Bitreel.webp';
+import Work1 from '../../assets/Khefue-frontend.webp';
+import Work3 from '../../assets/Debrilliant.webp';
+import Work10 from '../../assets/Game-chain.webp';
 
 export const projectsData = [
   {
