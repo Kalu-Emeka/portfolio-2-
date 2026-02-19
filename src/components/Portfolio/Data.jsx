@@ -1,9 +1,8 @@
-import Work2 from '../../assets/carepulse.png';
+import Work2 from '../../assets/dsyneer.png';
 import Work4 from '../../assets/EcoReport.png';
 import Work7 from '../../assets/Bitreel.png';
-import Work9 from '../../assets/hilink.png';
 import Work1 from '../../assets/Khefue-frontend.png';
-import Work3 from '../../assets/positivus.png';
+import Work3 from '../../assets/Debrilliant.png';
 import Work10 from '../../assets/Game-chain.png';
 
 export const projectsData = [
@@ -14,6 +13,26 @@ export const projectsData = [
     description:
       'Khefue allows purchases into extraordinary rewards. Earn points while shopping for groceries, paying bills, and booking travel—all in one place .',
     link: 'https://khefuefrontend.azurewebsites.net/login',
+    repo: '',
+    category: 'applications',
+  },
+  {
+    id: 1,
+    image: Work2,
+    title: 'Dsyneer',
+    description:
+      'It helps to connect with verified African designers, take measurements with your phone, and receive perfectly fitted outfits delivered to your location',
+    link: 'https://staging.dsyneer.com/',
+    repo: '',
+    category: 'websites',
+  },
+   {
+    id: 1,
+    image: Work3,
+    title: 'Debrilliant Academy',
+    description:
+      'Empowers individuals with inovative tech skills through coding, robotics, web development, and mentorship programs',
+    link: 'https://www.de-brilliant.com.ng/',
     repo: '',
     category: 'applications',
   },
