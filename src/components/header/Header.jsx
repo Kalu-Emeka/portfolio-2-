@@ -1,24 +1,33 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./header.css";
 
-const Header = () => {
-  /*=============== Change Background Header ===============*/
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    // when the scroll is higher than 200 viewport height, add the scroll-header class to a tag with the header tag
-    if (this.scrollY >= 80) header.classList.add("scroll-header");
-    else header.classList.remove("scroll-header");
-  });
-
-  /*=============== Toggle Menu ===============*/
+const Header = ({ theme, onToggleTheme }) => {
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+
+  useEffect(() => {
+    const updateHeader = () => {
+      document
+        .querySelector(".header")
+        ?.classList.toggle("scroll-header", window.scrollY >= 24);
+    }
+
+    updateHeader()
+    window.addEventListener("scroll", updateHeader, { passive: true })
+    return () => window.removeEventListener("scroll", updateHeader)
+  }, [])
+
+  const closeMenu = (section) => {
+    setActiveNav(section)
+    showMenu(false)
+  }
 
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
-          Kalu Emeka
+        <a href="#home" className="nav__logo" aria-label="Emeka Kalu, home">
+          <span className="nav__monogram">EK</span>
+          <span>Emeka Kalu<span className="nav__logo-dot">.</span></span>
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
@@ -26,7 +35,7 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#home"
-                onClick={() => setActiveNav("#home")}
+                onClick={() => closeMenu("#home")}
                 className={
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
                 }
@@ -38,7 +47,7 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#about"
-                onClick={() => setActiveNav("#about")}
+                onClick={() => closeMenu("#about")}
                 className={
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
                 }
@@ -50,7 +59,7 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#skills"
-                onClick={() => setActiveNav("#skills")}
+                onClick={() => closeMenu("#skills")}
                 className={
                   activeNav === "#skills"
                     ? "nav__link active-link"
@@ -64,7 +73,7 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#portfolio"
-                onClick={() => setActiveNav("#portfolio")}
+                onClick={() => closeMenu("#portfolio")}
                 className={
                   activeNav === "#portfolio"
                     ? "nav__link active-link"
@@ -76,14 +85,28 @@ const Header = () => {
             </li>
           </ul>
 
-          <i
-            className="uil uil-times nav__close"
-            onClick={() => showMenu(!Toggle)}
-          ></i>
         </div>
 
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="uil uil-apps"></i>
+        <div className="nav__actions">
+          <button
+            className="theme-toggle"
+            type="button"
+            onClick={onToggleTheme}
+            aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+            title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+          >
+            <i className={`uil ${theme === "dark" ? "uil-sun" : "uil-moon"}`}></i>
+          </button>
+          <a href="#contact" className="nav__contact">Let's talk <i className="uil uil-arrow-up-right"></i></a>
+          <button
+            className="nav__toggle"
+            type="button"
+            onClick={() => showMenu(!Toggle)}
+            aria-label="Toggle navigation menu"
+            aria-expanded={Toggle}
+          >
+            <i className={`uil ${Toggle ? "uil-times" : "uil-apps"}`}></i>
+          </button>
         </div>
       </nav>
     </header>

@@ -7,6 +7,7 @@ const Social = () => {
         href="www.linkedin.com/in/techie-emeka"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i className="uil uil-linkedin"></i>
       </a>

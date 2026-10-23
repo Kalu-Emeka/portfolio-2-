@@ -11,9 +11,14 @@ const Home = () => {
         <div className="home__content grid">
           <Social />
 
-          <div className="home__img"></div>
+          <div className="home__visual" data-reveal>
+            <div className="home__visual-orbit"></div>
+            <div className="home__img" role="img" aria-label="Portrait of Emeka Kalu"></div>
+            <div className="home__visual-card home__visual-card--top"><i className="uil uil-brackets-curly"></i><span>Thoughtful code</span></div>
+            <div className="home__visual-card home__visual-card--bottom"><span className="home__visual-star">✳</span><span>Made with purpose</span></div>
+          </div>
 
-          <Data />
+          <div data-reveal><Data /></div>
         </div>
 
         <ScrollDown />

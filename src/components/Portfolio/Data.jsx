@@ -4,6 +4,8 @@ import Work7 from '../../assets/Bitreel.webp';
 import Work1 from '../../assets/Khefue-frontend.webp';
 import Work3 from '../../assets/Debrilliant.webp';
 import Work10 from '../../assets/Game-chain.webp';
+import Caleb from '../../assets/Caleb.png';
+import Tracker from '../../assets/Tracker.png';
 
 export const projectsData = [
   {
@@ -17,7 +19,7 @@ export const projectsData = [
     category: 'applications',
   },
   {
-    id: 1,
+    id: 2,
     image: Work2,
     title: 'Dsyneer',
     description:
@@ -27,7 +29,7 @@ export const projectsData = [
     category: 'websites',
   },
    {
-    id: 1,
+    id: 3,
     image: Work3,
     title: 'Debrilliant Academy',
     description:
@@ -53,6 +55,26 @@ export const projectsData = [
     description:
       'Your cross-chain gaming asset hub',
     link: 'https://game-chain-oasis.netlify.app/',
+    repo: '',
+    category: 'applications',
+  },
+  {
+    id: 11,
+    image: Caleb,
+    title: 'CalebDeck',
+    description:
+      'Order meals, groceries, exclusive campus fashion, and other campus essentials through CalebDeck. We also offer products from selected external brands, giving you more options—all delivered conveniently to your hostel area.',
+    link: 'https://calebdeck.com/',
+    repo: '',
+    category: 'applications',
+  },
+  {
+    id: 12,
+    image: Tracker,
+    title: 'Hiring Tracker',
+    description:
+      'Track all applicants with just one flow of drag and drop animated hiring pipeline',
+    link: 'https://candidate-tracker-hire.netlify.app/',
     repo: '',
     category: 'applications',
   },
