@@ -54,7 +54,8 @@
 
 .whatsapp-chat__panel {
   width: min(360px, calc(100vw - 2rem));
-  overflow: hidden;
+  max-height: min(36rem, calc(100dvh - 6rem));
+  overflow-y: auto;
   border: 1px solid var(--border-color);
   border-radius: 1.25rem;
   background: var(--container-color);
@@ -274,12 +275,23 @@
   }
 
   .whatsapp-chat__launcher {
+    width: 3.4rem;
     min-width: 3.4rem;
     height: 3.4rem;
+    padding: 0;
+  }
+
+  .whatsapp-chat__launcher span {
+    display: none;
   }
 
   .app-shell .scrollup {
-    right: 5.2rem;
+    right: 1rem;
+    bottom: 5.2rem;
+  }
+
+  .app-shell .scrollup.show-scroll {
+    bottom: 5.2rem;
   }
 }
 

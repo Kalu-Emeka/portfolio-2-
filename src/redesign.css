@@ -341,7 +341,6 @@
 
 .app-shell .home__data {
   max-width: 600px;
-  animation: hero-enter 800ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 .home__availability {
@@ -992,7 +991,7 @@
     height: 3rem;
   }
 
-  .app-shell .home__content > [data-reveal] {
+  .app-shell .home__content > .home__copy {
     grid-column: 2;
     grid-row: 2;
   }
@@ -1116,7 +1115,7 @@
   .app-shell .home__visual {
     grid-column: 1;
     grid-row: 1;
-    min-height: 290px;
+    min-height: 320px;
   }
 
   .app-shell .home__img {
@@ -1135,12 +1134,12 @@
   }
 
   .home__visual-card--top {
-    top: 11%;
-    right: 1%;
+    top: 0;
+    right: 0;
   }
 
   .home__visual-card--bottom {
-    bottom: 9%;
+    bottom: 0;
     left: 0;
   }
 
@@ -1158,7 +1157,7 @@
     margin: 0 0 0 0.3rem;
   }
 
-  .app-shell .home__content > [data-reveal] {
+  .app-shell .home__content > .home__copy {
     grid-column: 1;
     grid-row: 2;
   }
@@ -1266,6 +1265,39 @@
 
   .app-shell .scrollup {
     right: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .app-shell .home__visual {
+    min-height: 285px;
+  }
+
+  .app-shell .home__img {
+    width: 175px;
+    height: 175px;
+  }
+
+  .app-shell .home__visual-orbit {
+    width: 225px;
+  }
+
+  .home__visual-card {
+    gap: 0.4rem;
+    padding: 0.55rem 0.6rem;
+    font-size: 0.62rem;
+  }
+
+  .app-shell .home__title {
+    font-size: clamp(2.5rem, 12vw, 2.8rem);
+  }
+
+  .app-shell .skills__box {
+    gap: 0.7rem;
+  }
+
+  .app-shell .skills__name {
+    font-size: 0.74rem;
   }
 }
 
