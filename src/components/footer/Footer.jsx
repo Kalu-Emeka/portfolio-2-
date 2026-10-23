@@ -21,12 +21,11 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/techie-emeka"
+            href="mailto:brickkalu@gmail.com"
             className="footer__social-link"
-            target="_blank"
-            rel="noreferrer"
+            aria-label="Email Emeka"
           >
-            <i className="bx bxl-linkedin"></i>
+            <i className="bx bx-envelope"></i>
           </a>
         </div>
 

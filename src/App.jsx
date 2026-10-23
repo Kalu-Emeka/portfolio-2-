@@ -8,6 +8,7 @@ import Qualification from './components/qualification/Qualification'
 import Work from './components/Portfolio/Work'
 import Footer from './components/footer/Footer'
 import ScrollUp from './components/scrollup/ScrollUp'
+import WhatsAppChat from './components/contact/WhatsAppChat'
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -86,6 +87,7 @@ const App = () => {
         <Footer />
       </div>
       <ScrollUp />
+      <WhatsAppChat />
     </div>
   )
 }
