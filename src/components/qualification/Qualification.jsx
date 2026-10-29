@@ -37,6 +37,20 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+            <div></div>
+              <div>
+              <span className="qualification__rounder"></span>
+              <span className="qualification__line"></span>
+            </div>
+            <div>
+              <h3 className="qualification__title">Web Developer</h3>
+              <span className="qualification__subtitle">ProVA</span>
+              <div className="qualification__calender">
+                <i className="uil uil-calendar-alt"></i> September 2026 - Present
+              </div>
+              </div>
+            </div>
+            <div className="qualification__data">
               {' '}
               <div>
                 <h3 className="qualification__title">Front-end Developer</h3>
@@ -44,7 +58,7 @@ const Qualification = () => {
                   VERIDAQ - Remote – Lagos State
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> January 2025 - December 2025
                 </div>
               </div>
               <div>
